@@ -172,7 +172,6 @@
 				DEBF0783F6F29CCA59C43BA9 /* Pods-Flix-FlixUITests.debug.xcconfig */,
 				B93993A2BA9DC134E5A713CA /* Pods-Flix-FlixUITests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -595,6 +594,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQMFNJ29R2;
 				INFOPLIST_FILE = Flix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
@@ -614,6 +614,7 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VQMFNJ29R2;
 				INFOPLIST_FILE = Flix/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
