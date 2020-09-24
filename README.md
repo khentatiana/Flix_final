@@ -35,12 +35,12 @@ Describe any challenges encountered while building the app.
 - [x] (3pts) User can view the movie poster image for each movie.
 
 #### BONUS
-- [ ] (2pt) User can view the app on various device sizes and orientations.
-- [ ] (1pt) Run your app on a real device.
+- [x] (2pt) User can view the app on various device sizes and orientations.
+- [x] (1pt) Run your app on a real device.
 
 ### App Walkthrough GIF
 
-<img src="http://g.recordit.co/fGro0TXpXv.gif" width=250><br>
+<img src="http://g.recordit.co/5lkzF28aig.gif" width=250><br>
 
 ### Notes
 Describe any challenges encountered while building the app.
