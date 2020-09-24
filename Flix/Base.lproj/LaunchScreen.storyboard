@@ -14,26 +14,16 @@
                 <viewController id="01J-lp-oVM" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
-                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="ame-1e-fGf">
-                                <rect key="frame" x="118" y="94" width="179" height="500"/>
-                                <constraints>
-                                    <constraint firstAttribute="height" relation="greaterThanOrEqual" constant="280" id="RA0-CZ-68R"/>
-                                    <constraint firstAttribute="width" relation="greaterThanOrEqual" constant="179" id="ZPD-IC-J1J"/>
-                                </constraints>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="VfN-Vh-lTw">
+                                <rect key="frame" x="138" y="378.5" width="138" height="139"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray2Color"/>
                         <constraints>
-                            <constraint firstItem="ame-1e-fGf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="117" id="DaA-0X-d1j"/>
-                            <constraint firstItem="ame-1e-fGf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="270" id="H7U-b7-BDm"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ame-1e-fGf" secondAttribute="bottom" constant="50" id="Ors-en-hZN"/>
-                            <constraint firstItem="ame-1e-fGf" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="118" id="Tb2-wA-a0R"/>
-                            <constraint firstItem="ame-1e-fGf" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="50" id="UQr-Hv-ZBl"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="ame-1e-fGf" secondAttribute="trailing" constant="117" id="ciT-tD-FH3"/>
-                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="ame-1e-fGf" secondAttribute="bottom" constant="268" id="v77-7J-4db"/>
+                            <constraint firstItem="VfN-Vh-lTw" firstAttribute="centerY" secondItem="Ze5-6b-2t3" secondAttribute="centerY" id="KR3-2O-TGu"/>
+                            <constraint firstItem="VfN-Vh-lTw" firstAttribute="centerX" secondItem="Ze5-6b-2t3" secondAttribute="centerX" id="kJ0-12-rTN"/>
                         </constraints>
                     </view>
                 </viewController>
