@@ -43,4 +43,8 @@ Describe any challenges encountered while building the app.
 <img src="http://g.recordit.co/5lkzF28aig.gif" width=250><br>
 
 ### Notes
-Describe any challenges encountered while building the app.
+While I was building the app there were some challenges:
+1. Related to the new version of the Xcode
+2. Had some troubles to set-up CocoaPods and configure Podfile in particular
+3. Loved to deal with challenges related to the BONUS user stories
+
