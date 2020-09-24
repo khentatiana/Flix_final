@@ -16,13 +16,23 @@
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" fixedFrame="YES" image="launch_image" highlighted="YES" adjustsImageSizeForAccessibilityContentSizeCategory="YES" translatesAutoresizingMaskIntoConstraints="NO" id="8fz-54-pXI">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="8fz-54-pXI">
                                 <rect key="frame" x="138" y="295" width="138" height="139"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="139" id="gHZ-6G-HhR"/>
+                                    <constraint firstAttribute="width" constant="138" id="prC-yZ-r2y"/>
+                                </constraints>
+                                <edgeInsets key="layoutMargins" top="8" left="8" bottom="8" right="8"/>
                             </imageView>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" systemColor="systemGray2Color"/>
+                        <constraints>
+                            <constraint firstItem="8fz-54-pXI" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="138" id="Bux-Vg-02p"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="8fz-54-pXI" secondAttribute="bottom" constant="428" id="nkY-BO-WY6"/>
+                            <constraint firstItem="8fz-54-pXI" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="251" id="yF1-1B-g2C"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="8fz-54-pXI" secondAttribute="trailing" constant="138" id="yIK-ej-aXS"/>
+                        </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
