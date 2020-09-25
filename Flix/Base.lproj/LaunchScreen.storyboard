@@ -15,7 +15,7 @@
                     <view key="view" contentMode="scaleToFill" layoutMarginsFollowReadableWidth="YES" translatesAutoresizingMaskIntoConstraints="NO" id="Ze5-6b-2t3">
                         <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
                         <subviews>
-                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="VfN-Vh-lTw">
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" layoutMarginsFollowReadableWidth="YES" image="launch_image" translatesAutoresizingMaskIntoConstraints="NO" id="VfN-Vh-lTw">
                                 <rect key="frame" x="138" y="378.5" width="138" height="139"/>
                             </imageView>
                         </subviews>
