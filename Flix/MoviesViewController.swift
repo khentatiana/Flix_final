@@ -34,7 +34,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
               let dataDictionary = try! JSONSerialization.jsonObject(with: data, options: []) as! [String: Any]
             self.movies = dataDictionary["results"] as! [[String : Any]]
             self.tableView.reloadData()
-            
+                     
               // TODO: Get the array of movies
               // TODO: Store the movies in a property to use elsewhere
               // TODO: Reload your table view data
@@ -54,9 +54,10 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         let title = movie["title"] as! String
         let synopsis = movie ["overview"] as! String
         cell.movieLabel.text = title
+        cell.movieLabel.sizeToFit()
         
         cell.synopsisLabel.text = synopsis
-        
+        cell.synopsisLabel.sizeToFit()
         
         let baseUrl = "https://image.tmdb.org/t/p/w185"
         let posterPath = movie["poster_path"] as! String
@@ -84,7 +85,7 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         let detailsViewController = segue.destination as! MovieDetailsViewController
         detailsViewController.movie = movie
         
-        //Deselect movie after tapping
+        //Deselect movie after tapping and coming back to main screen
         tableView.deselectRow(at: indexPath, animated: true)
         
     }
