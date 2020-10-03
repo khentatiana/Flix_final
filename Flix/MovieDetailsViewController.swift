@@ -9,7 +9,8 @@ import UIKit
 import AlamofireImage
 
 class MovieDetailsViewController: UIViewController {
-    var movie : [String : Any]!
+    var movie : [String : Any]!//Store selected movie from MoviesViewController
+    
     @IBOutlet weak var posterView: UIImageView!
     @IBOutlet weak var backdrop: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!

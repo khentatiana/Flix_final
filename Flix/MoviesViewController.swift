@@ -77,15 +77,15 @@ class MoviesViewController: UIViewController, UITableViewDataSource, UITableView
         print("Loading up the details screen")
         
         //Find the selected movie
-        let cell = sender as! UITableViewCell
-        let indexPath = tableView.indexPath(for: cell)!
-        let movie = movies[indexPath.row]
+        let cell = sender as! UITableViewCell // Sender is the cell that was tapped
+        let indexPath = tableView.indexPath(for: cell)! //Index of the cell was tapped
+        let movie = movies[indexPath.row] //movie from selected cell
         
         //Pass the selected movie to the details view controller
-        let detailsViewController = segue.destination as! MovieDetailsViewController
-        detailsViewController.movie = movie
+        let detailsViewController = segue.destination as! MovieDetailsViewController //Variable "detailsViewController" is a destination where selected movie is segue
+        detailsViewController.movie = movie //this "movie" is referring to the selected movie from MoviesViewController
         
-        //Deselect movie after tapping and coming back to main screen
+        //Deselect movie when transitioning (after tapping and coming back to main screen)
         tableView.deselectRow(at: indexPath, animated: true)
         
     }
