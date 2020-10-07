@@ -6,7 +6,9 @@
 //
 
 import UIKit
+import youtube_ios_player_helper
 import AlamofireImage
+
 
 class SuperheroDetailsViewController: UIViewController {
     var movie : [String : Any]!
@@ -16,9 +18,11 @@ class SuperheroDetailsViewController: UIViewController {
     @IBOutlet weak var posterView: UIImageView!
     @IBOutlet weak var titleLabel: UILabel!
     @IBOutlet weak var synopsisLabel: UILabel!
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
+       
 
         // Do any additional setup after loading the view.
         

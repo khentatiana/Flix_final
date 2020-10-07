@@ -9,7 +9,7 @@ target 'Flix' do
 # This pulls in the latest version of Alamofire >= 4.4 but less than 5.2.
   #pod 'Alamofire', '~> 5.2'
   pod 'AlamofireImage'	
-  
+pod 'youtube-ios-player-helper'  
 
   target 'FlixTests' do
     inherit! :search_paths
